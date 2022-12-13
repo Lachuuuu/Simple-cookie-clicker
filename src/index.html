@@ -6,10 +6,74 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script type="module" src="main.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="contentBox">
+        <div class="cookieBox">
+            <h3 class="cookieBoxHeader">Całkowita ilość wygenerowanych ciasteczek: &nbsp; <span id="cookieCount"></span></h3>
+            <img src="img/cookie.png" id="cookieImg">
+            <div class="clickInfoBlock">
+                <div class="clickInfoMiniBox">
+                    <h5 class="cookieGainInfo">ilość ciasteczek per click:&nbsp;<span id="cookiePerClick"></span></h5>
+                    <h5 class="cookieGainInfo">ilość ciasteczek per second:&nbsp;<span id="cookiePerSecond"></span></h5>
+                </div>
+            </div>
+        </div>
+        <div class="upgradeBox">
+            <div class="upgrade">
+                <div class="upgradeDetails">
+                    <h4 class="upgradeName">Nazwa</h4>
+                    <h5 class="upgradeInfo">+ 0.1</h5>
+                </div>
+                <div class="upgradeButton" id="upgradeButton1">
+                    <span>Level up</span>
+                    <span id="upgrade1Cost">5</span>
+                </div>
+            </div>
+            <div class="upgrade">
+                <div class="upgradeDetails">
+                    <h4 class="upgradeName">Nazwa</h4>
+                    <h5 class="upgradeInfo">+ 1</h5>
+                </div>
+                <div class="upgradeButton" id="upgradeButton2">
+                    <span>Level up</span>
+                    <span id="upgrade2Cost">5</span>
+                </div>
+            </div>
+            <div class="upgrade">
+                <div class="upgradeDetails">
+                    <h4 class="upgradeName">Nazwa</h4>
+                    <h5 class="upgradeInfo">+ 5</h5>
+                </div>
+                <div class="upgradeButton" id="upgradeButton3">
+                    <span>Level up</span>
+                    <span id="upgrade3Cost">5</span>
+                </div>
+            </div>
+            <div class="upgrade">
+                <div class="upgradeDetails">
+                    <h4 class="upgradeName">Nazwa</h4>
+                    <h5 class="upgradeInfo">+ 10</h5>
+                </div>
+                <div class="upgradeButton" id="upgradeButton4">
+                    <span>Level up</span>
+                    <span id="upgrade4Cost">5</span>
+                </div>
+            </div>
+            <div class="upgrade">
+                <div class="upgradeDetails">
+                    <h4 class="upgradeName">Nazwa</h4>
+                    <h5 class="upgradeInfo">+ 100</h5>
+                </div>
+                <div class="upgradeButton" id="upgradeButton5">
+                    <span>Level up</span>
+                    <span id="upgrade5Cost">5</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <script type="module" src="main.js" async></script>
 </body>
 </html>

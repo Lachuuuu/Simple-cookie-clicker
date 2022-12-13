@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.contentBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.cookieBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.upgradeBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.cookieBoxHeader{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#cookieImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 150px;
+}
+
+.clickInfoBlock{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 13%;
+}
+
+.clickInfoMiniBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+
+.cookieGainInfo{
+    display: flex;
+    justify-content: center;
+}
+
+.upgrade{
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.upgradeDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.upgradeButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: lightgrey;
+}
+
+.upgradeName{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
+.upgradeInfo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
