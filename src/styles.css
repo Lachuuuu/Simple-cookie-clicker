@@ -23,6 +23,10 @@ body{
     margin-right: 10px;
 }
 
+.cookieClicked{
+    scale: 0.97;
+}
+
 .upgradeBox{
     display: flex;
     justify-content: center;
@@ -39,8 +43,15 @@ body{
     font-size: 25px;
     color:black;
 }
+
+.unavaible{
+    background-color: grey;
+}
+.avaible{
+    background-color: orange;
+}
 #headerText{
-    background-color: orangered;
+    background-color: darkorange;
     border: 2px solid white;
     padding: 5px;
 }
@@ -101,7 +112,6 @@ body{
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: orange;
 }
 
 .upgradeName{

@@ -34,6 +34,8 @@ updateDisplay();
 
 cookie.addEventListener("click", () => {
     bankValue = bankValue + cookiePerClick;
+    cookie.classList.add('cookieClicked');
+    setTimeout(() => cookie.classList.remove('cookieClicked'), 50);
     updateDisplay();
     changeCookieBacground();
 });
@@ -121,5 +123,45 @@ function updateDisplay(){
     upgrade3CostElement.innerText = upgrade3Cost.toFixed(2);
     upgrade4CostElement.innerText = upgrade4Cost.toFixed(2);
     upgrade5CostElement.innerText = upgrade5Cost.toFixed(2);
+    if(bankValue < upgrade1Cost){
+        upgradeButtons.item(0).classList.add('unavaible');
+        upgradeButtons.item(0).classList.remove('avaible');
+    }
+    else {
+        upgradeButtons.item(0).classList.remove('unavaible');
+        upgradeButtons.item(0).classList.add('avaible');
+    }
+    if(bankValue < upgrade2Cost){
+        upgradeButtons.item(1).classList.add('unavaible');
+        upgradeButtons.item(1).classList.remove('avaible');
+    }
+    else {
+        upgradeButtons.item(1).classList.remove('unavaible');
+        upgradeButtons.item(1).classList.add('avaible');
+    }
+    if(bankValue < upgrade3Cost){
+        upgradeButtons.item(2).classList.add('unavaible');
+        upgradeButtons.item(2).classList.remove('avaible');
+    }
+    else {
+        upgradeButtons.item(2).classList.remove('unavaible');
+        upgradeButtons.item(2).classList.add('avaible');
+    }
+    if(bankValue < upgrade4Cost){
+        upgradeButtons.item(3).classList.add('unavaible');
+        upgradeButtons.item(3).classList.remove('avaible');
+    }
+    else {
+        upgradeButtons.item(3).classList.remove('unavaible');
+        upgradeButtons.item(3).classList.add('avaible');
+    }
+    if(bankValue < upgrade5Cost){
+        upgradeButtons.item(4).classList.add('unavaible');
+        upgradeButtons.item(4).classList.remove('avaible');
+    }
+    else {
+        upgradeButtons.item(4).classList.remove('unavaible');
+        upgradeButtons.item(4).classList.add('avaible');
+    }
 
 }
