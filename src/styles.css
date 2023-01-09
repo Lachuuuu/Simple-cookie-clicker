@@ -2,6 +2,9 @@ body{
     display: flex;
     justify-content: center;
     background-color: grey;
+    background-image: url("https://i.pinimg.com/originals/98/10/72/981072c1046a6ce2eab30f6036ce0666.jpg");
+    background-repeat: repeat;
+    animation: animatedBackground 30s linear infinite;
 }
 
 .contentBox{
@@ -17,6 +20,7 @@ body{
     flex-direction: column;
     height: 100%;
     width: 100%;
+    margin-right: 10px;
 }
 
 .upgradeBox{
@@ -31,6 +35,14 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    color:black;
+}
+#headerText{
+    background-color: orangered;
+    border: 2px solid white;
+    padding: 5px;
 }
 #cookieImg{
     display: block;
@@ -38,6 +50,11 @@ body{
     margin-right: auto;
     width: 200px;
     height: 150px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 50px black;
+    background-color: #A07B3F;
 }
 
 .clickInfoBlock{
@@ -53,20 +70,22 @@ body{
     justify-content: center;
     width: 70%;
     height: 100%;
-    border: 2px solid black;
-    background-color: lightgrey;
+    border: 2px solid white;
+    background-color: orange;
 }
 
 .cookieGainInfo{
     display: flex;
     justify-content: center;
+    height: 50%;
 }
 
 .upgrade{
     display: flex;
     width: 100%;
-    background-color: yellow;
-    border: 1px solid black;
+    background-color: orangered;
+    border: 2px solid white;
+    margin: 2px;
 }
 
 .upgradeDetails{
@@ -82,7 +101,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: lightgrey;
+    background-color: orange;
 }
 
 .upgradeName{
@@ -96,4 +115,13 @@ body{
     justify-content: center;
     width: 100%;
     margin: 5px;
+}
+
+.unclickable{
+    pointer-events: none;
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 980px 980px; }
 }
