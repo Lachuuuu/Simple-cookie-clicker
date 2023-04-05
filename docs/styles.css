@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: grey;
-    background-image: url("./img/981072c1046a6ce2eab30f6036ce0666.jpg");
+    background-image: url("../src/img/981072c1046a6ce2eab30f6036ce0666.jpg");
     background-repeat: repeat;
     animation: animatedBackground 30s linear infinite;
 }
