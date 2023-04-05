@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: grey;
-    background-image: url("../src/img/981072c1046a6ce2eab30f6036ce0666.jpg");
+    background-image: url("https://media.istockphoto.com/id/1364276057/vector/vector-seamless-pattern-with-cookies-colorful.jpg?s=612x612&w=0&k=20&c=NlpZaZo_YcZwLmmhlLbYhQIQHf8AD3MrnM-QwfW9RRI=");
     background-repeat: repeat;
     animation: animatedBackground 30s linear infinite;
 }
